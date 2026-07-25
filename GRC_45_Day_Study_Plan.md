@@ -1,4 +1,4 @@
-# 45-Day GRC Mastery Plan — Beginner to Professional
+# 45-Days GRC Mastery Plan — Beginner to Professional
 ### Governance, Risk & Compliance in Cybersecurity · 5 hours/week
 
 ---
