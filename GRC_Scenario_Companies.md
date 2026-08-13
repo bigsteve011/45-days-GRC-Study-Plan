@@ -7,7 +7,14 @@ These five companies span different **sectors**, **organizational life-phases**,
 ---
 
 ## SCENARIO 1 (Reference): FINTECH STARTUP — "PAYFLOW" · Lagos, Nigeria
-*Early-growth fintech startup processing digital payments for SMEs. Scaled 8 → 45 staff in a year; loose access control, no security policies, no incident response plan, no risk assessments; an exposed API key surfaced on public GitHub. Preparing for international payment partnerships requiring PCI DSS and ISO/IEC 27001. A GRC analyst is brought in to assess risk, implement controls, and prepare for compliance and audits.*
+Early-growth fintech startup processing digital payments for SMEs. Scaled 8 → 45 staff in a year; loose access control, no security policies, no incident response plan, no risk assessments; an exposed API key surfaced on public GitHub. Preparing for international payment partnerships requiring PCI DSS and ISO/IEC 27001. A GRC analyst is brought in to assess risk, implement controls, and prepare for compliance and audits.
+
+PayFlow is a fast-growing fintech startup based in Lagos, Nigeria. The company provides digital payment solutions for small and medium-sized businesses, enabling merchants to accept payments via cards, bank transfers, and mobile wallets. Over the past year, PayFlow has scaled rapidly from a team of 8 employees to over 45 staff members, with thousands of daily transactions being processed through its platform. The infrastructure is hosted primarily on cloud services, with a mix of virtual machines and
+managed services. 
+
+The backend APIs handle sensitive financial transactions and are integrated with third-party payment processors. Customer data stored includes personally identifiable information (PII) such as names, phone numbers, email addresses, and partial financial details. Some logs and backups are stored in cloud storage buckets, but there is no consistent encryption policy across all systems. Access control within the organization is loosely managed. Developers have broad access to production systems, and there is no strict enforcement of role-based access control (RBAC). Multi-factor authentication (MFA) is enabled for some administrative accounts, but not consistently across all users. 
+
+Employee onboarding is fast-paced, often skipping formal security briefings. The company has no formalized security policies in place. There is no documented incident response plan, and risk assessments have never been formally conducted. Recently, a minor security incident occurred where an exposed API key was discovered on a public GitHub repository, raising concerns among investors. PayFlow is preparing to partner with international payment providers, which requires alignment with standards like PCI DSS and ISO/IEC 27001. Leadership has now decided to prioritize security governance and has brought in a GRC analyst (your student) to assess risks, implement controls, and prepare the company for compliance and audits.
 
 ---
 
